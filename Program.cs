@@ -7,6 +7,10 @@ internal class Program
     {
         var dbContext = DbContextFactory.Create();
         Console.WriteLine("DbContext creado exitosamente.");
-        var equipo = dbContext.Equipo.ToList();
+        var equipo = dbContext.Jugador.Include(e => e.Persona).ToList();
+        foreach (var item in equipo)
+        {
+            Console.WriteLine($"{item.Persona.Nombre}");
+        }
     }
 }
