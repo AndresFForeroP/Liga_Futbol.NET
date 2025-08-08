@@ -97,6 +97,7 @@ CREATE TABLE IF NOT EXISTS Notificacion (
     Precio DECIMAL(10, 2),
     EquipoId INT,
     JugadorId INT,
+    Tipo VARCHAR(14) NOT NULL,
     Fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (EquipoId) REFERENCES Equipo(Id),
     FOREIGN KEY (JugadorId) REFERENCES Jugador(Id)

@@ -120,3 +120,4 @@ C:\Proyectos visual\C#\examen\Version final\Liga_futbol\obj\Debug\net9.0\refint\
 C:\Proyectos visual\C#\examen\Version final\Liga_futbol\obj\Debug\net9.0\Liga_futbol.pdb
 C:\Proyectos visual\C#\examen\Version final\Liga_futbol\obj\Debug\net9.0\Liga_futbol.genruntimeconfig.cache
 C:\Proyectos visual\C#\examen\Version final\Liga_futbol\obj\Debug\net9.0\ref\Liga_futbol.dll
+C:\Proyectos visual\C#\examen\Version final\Liga_futbol\obj\Debug\net9.0\Liga_futbol.sourcelink.json
